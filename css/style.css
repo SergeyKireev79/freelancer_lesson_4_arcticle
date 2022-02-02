@@ -1,0 +1,112 @@
+/* @import url(https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap); */
+@import url(https://fonts.googleapis.com/css?family=Lobster:regular&display=swap);
+
+@import url(https://fonts.googleapis.com/css?family=Cormorant:300,300italic,regular,italic,500,500italic,600,600italic,700,700italic&display=swap);
+
+@font-face{
+   font-family: tygra;
+   src: url('../fonts/1187TYGRA.woff2') format("woff2"), url('../fonts/1187TYGRA.woff') format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+@font-face{
+   font-family: miroslav;
+   src: url('../fonts/MiroslavNormal.woff2') format("woff2"), url('../fonts/MiroslavNormal.woff') format("woff");
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+}
+.topic{
+   font-size: 80px;
+   font-family: tygra, fantasy;
+   text-align: center;
+   }
+   .foreword{
+      font-family: cormorant, sans-serif;
+      font-weight: 700;
+      font-size: 30px;
+      font-style: normal;
+      text-align: justify;
+   }
+   p{
+   font-family: miroslav, sans-serif;
+     font-size: 20px;
+     font-weight: 400;
+     font-style: normal;
+     text-align: justify;
+   }
+   h2{
+      font-family: cormorant, sans-serif;
+      font-weight: 700;
+      font-size: 30px;
+      font-style: italic;
+      text-align: right;
+   }
+   .list{
+      font-family: cormorant, sans-serif;
+      font-weight: 700;
+      font-size: 25px;
+      font-style: italic;
+      text-decoration: underline;
+      color: crimson;
+      text-align: right;
+   }
+   #item1, #item2, #item3, #item4, #item5 {
+      font-family: miroslav, sans-serif;
+      font-weight: 500;
+      font-size: 30px;
+      color: blue;
+      text-align: center;
+      text-shadow: 2px 2px 1px rgb(247, 5, 5);
+   }
+   .item4 p {
+      text-decoration: line-through;
+   }
+   .item5 p {
+      text-transform: capitalize;
+   }
+   .item1 p {
+      text-indent: 25px;
+      word-spacing: 20px;
+   }
+   .item1 a {
+      color: gold;
+      font-size: 40px;
+   }
+   .item2 p {
+letter-spacing: 10px;
+   }
+   .item3 p {
+      text-transform: uppercase;
+      white-space: nowrap;
+         }
+.quiz {
+   font-family: cormorant, sans-serif;
+   font-weight: 300;
+   font-size: 25px;
+}
+.quiz h4{
+   text-decoration: underline;
+   color: red;
+}
+.quiz ol{
+   color: navy;
+   text-shadow: 2px -2px 1px rgb(42, 243, 52);
+}
+.quiz span{
+   font-family: cormorant, sans-serif;
+   font-weight: 300;
+   font-size: 10px;
+   font-style: italic;
+   text-transform: uppercase;
+      text-decoration: overline;
+
+}
+footer{
+   font-size: 15px;
+   font-family: tygra, fantasy;
+   text-align: center;
+}
+
+   
